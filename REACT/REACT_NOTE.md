@@ -31,6 +31,10 @@ h1.innerHTML = "Hello World";
 document.getElementById("root").appendChild(h1)
 ```
 
+### RENDER METHOD
+
+* Must be wrapped in a whole div
+
 
 And the really remarkable thing right here is that if you think about it, we're inside a JavaScript file
 
