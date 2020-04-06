@@ -78,6 +78,9 @@ ReactDOM.render(
 );
 ```
 
+
+### 417. Javascript Expressions in JSX & ES6 Template Literals
+
 also can do TEMPLATE LITERALS (String Interpolation)
 
 ```JavaScript
@@ -88,6 +91,8 @@ But that isn't necessarily best. Angela prefers first method.
 
 #### NOTES:
 
+# REMEMBER: Codesandbox works best with a new window
+
 [Statements vs. Expressions](https://www.youtube.com/watch?v=WVyCrI1cHi8&list=PL-xu4i_QDSxcoDNeh8rx5-pHCCTOg0XsI&index=15)
 
 * can embed JS EXPRESSIONS into the html but not statements
@@ -95,14 +100,31 @@ But that isn't necessarily best. Angela prefers first method.
 * statements are INSTRUCTIONS (conditionals, while/for loops etc)
 * you cannot put statements where expressions are expected (e.g. cannot put a statement into a console.log())
 
-### 417. Javascript Expressions in JSX & ES6 Template Literals
-
 
 ### 418. Javascript Expressions in JSX Practice
 
 
 ### 419. JSX Attributes & Styling React Elements
 
+#### NOTES:
+* Styles have to be className because it's still getting rendered to JS not css
+* must change JavaScript to JSX on the root page
+
+From this:
+```Javascript
+    <script src="../src/index.js" type="text/javascript"></script>
+```
+
+To this:
+```Javascript
+    <script src="../src/index.js" type="text/javascript"></script>
+```
+
+* html elements must be in camel case
+
+* You can insert both JavaScript AND css into react elements
+
+* NOTE: "Unterminated JSX Context" usually means you just forgot a backslash 
 
 ### 420. Inline Styling for React Elements
 
