@@ -124,10 +124,30 @@ To this:
 
 * You can insert both JavaScript AND css into react elements
 
-* NOTE: "Unterminated JSX Context" usually means you just forgot a backslash 
+* NOTE: "Unterminated JSX Context" usually means you just forgot a backslash
 
 ### 420. Inline Styling for React Elements
 
+```JavaScript
+ReactDOM.render(
+  <div>
+    <h1 className="heading">My Favorite Foods</h1>
+  </div>,
+  document.getElementById("root")
+);
+```
+
+* NOTE: Even though it LOOKS like html, it's JSX
+
+
+```JavaScript
+ReactDOM.render(
+  <div>
+    <h1 style={{color: "red"}}>My Favorite Foods</h1>
+  </div>,
+  document.getElementById("root")
+);
+```
 
 ### 421. React Styling Practice
 
