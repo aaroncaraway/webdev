@@ -154,9 +154,54 @@ ReactDOM.render(
 
 ### 422. React Components
 
+* In Pascal Case so Components named `Heading`
 
 ### 423. React Components Practice
 
+#### index.js
+
+```Javascript
+import React from "react";
+import ReactDOM from "react-dom";
+import Heading from "./Heading";
+import List from "./List";
+
+ReactDOM.render(
+  <div>
+    <Heading />
+    <List />
+  </div>,
+  document.getElementById("root")
+);
+```
+#### Heading.jsx
+
+```Javascript
+import React from "react";
+function Heading() {
+  return <h1>My Favorite Foods</h1>;
+}
+
+export default Heading;
+```
+
+#### List.jsx
+
+```Javascript
+import React from "react";
+
+function List() {
+  return (
+    <ul>
+      <li>Jam</li>
+      <li>Candy</li>
+      <li>Spinach</li>
+    </ul>
+  );
+}
+
+export default List;
+```
 
 ### 424. Javascript ES6 - Import, Export and Modules
 
