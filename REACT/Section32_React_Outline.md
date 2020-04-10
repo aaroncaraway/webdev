@@ -203,6 +203,10 @@ function List() {
 export default List;
 ```
 
+#### CODESANDBOX
+
+[Link](https://codesandbox.io/s/react-components-practice-4em25?file=/src/components/Heading.js)
+
 ### 424. Javascript ES6 - Import, Export and Modules
 
 
