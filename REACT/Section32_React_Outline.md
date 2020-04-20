@@ -253,6 +253,7 @@ ReactDOM.render(
 
 ### 427. [Mac] Local Environment Setup for React Development​
 
+4/20/20 -- Took a break to circle back to the Node.js Module
 
 ### 428. Keeper App Project - Part 1 Challenge
 
